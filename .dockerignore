@@ -1,0 +1,23 @@
+# part 4b: Run locally with Podman(.dockerignore)
+
+# part a: .git
+.git/
+.gitignore
+
+# part b: .venv
+.venv/
+env/
+venv/
+
+# part c: __pycache__
+__pycache__/
+*.pyc
+*.pyo
+
+# part d: notebook checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# part e: secrets
+*.env
+secrets/
